@@ -8,3 +8,56 @@
 img{
     max-width:100%;
 }
+/* classe per tutti i li */
+li{
+    list-style-type: none;
+}
+/* classe per tutti i a */
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* classe per l'header */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff6900;
+    z-index: 10;
+}
+/* classe per la barra flex dell'header */
+.flex-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    max-width: 1300px;
+    padding: 1.5rem;
+}
+/* classe per la larghezza dei div nell'header  */
+.sex-type , .simboli-account{
+    width: 25%;
+}
+/* classe per il div del logo dell'header */
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+/* classe per modificare solo l'immagine del logo nell'header */
+.logo img{
+    width: 200px;
+}
+/* classe per la lista della scelta del tipo del sesso*/
+.lista-type{
+    display: flex;
+    gap: 1rem;
+}
+/*   classe per la lista dei simboli dell'account */
+.lista-simboli{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
