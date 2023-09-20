@@ -61,3 +61,93 @@ header{
     justify-content: flex-end;
     gap: 1rem;
 }
+/* classe per spostare il main sotto l'header */
+main{
+    padding-top: 200px;
+}
+/* classe per il container delle card */
+.container{
+    margin:0 auto;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* classe per la carta */
+.carta{
+    width: calc(100%/3);
+    padding: 1rem;
+    position: relative;
+}
+/* classe per il contenitore dell'immagine */
+.immagine-carta{
+    position: relative;
+    width: 400px;
+}
+/* classe per l'interno della carta */
+.interno-carta{
+    position: absolute;
+    padding: 6px 8px;
+    color: white;    
+    bottom: 50px;
+    z-index: 50;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* classe per lo sconto della carta */
+.sconto{
+    background-color: red;
+}
+/* classe per la sostenibilitá della carta */
+.sostenibilitá{
+    left: 55px;
+    background-color: green;
+}
+/* classe per la sostenibilitá della sesta carta */
+.sost-sesta{
+    left: 0px;
+    background-color: green;
+}
+/* classe per il cuore sulla carta */
+.cuore-preferito{
+    top: 20px;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    z-index: 50;
+    background-color: white;
+}
+/* classe dell'a del cuore */
+.cuore-preferito a{
+    color: black;
+    font-size: 25px;
+}
+/* classe per la prima immagine della carta*/
+.prima-immagine{
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+/* classe per quando si passa sopra la prima immagine, in modo da farla sparire */
+.prima-immagine:hover{
+    opacity: 0;
+}
+/* classe per quando si passa sopra il cuore */
+.cuore-preferito a:hover{
+    color: red;
+}
+/* classe per il nome della carta */
+h2{
+    font-size: 1.5rem;
+}
+/* classe per il prezzo scontato della carta */
+.prezzo-scontato{
+    display: inline-block;
+    margin-right: 5px;
+    color: red;
+    font-weight: bold;
+}
+/* classe per cancellare il prezzo senza sconto  */
+.prezzo-normale{
+    text-decoration: line-through;
+}
