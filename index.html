@@ -1,159 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolando</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <!-- header -->
-    <header>
-        <!-- div contenente la barra dell'header che rimarrá bloccata sopra la pagina  -->
-        <div class="flex-bar">
-            <!-- div contenente la scelta del tipo -->
-            <div class="sex-type">
-                <!-- lista con le scelte possibili-->
-                <ul class="lista-type">
-                    <li><a href="">Donna</a></li>
-                    <li><a href="">Uomo</a></li>
-                    <li><a href="">Bambini</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boolando</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <!-- div contenente la barra dell'header che rimarrá bloccata sopra la pagina  -->
+            <div class="flex-bar">
+                <!-- div contenente la scelta del tipo -->
+                <div class="sex-type">
+                    <!-- lista con le scelte possibili-->
+                    <ul class="lista-type">
+                        <li><a href="">Donna</a></li>
+                        <li><a href="">Uomo</a></li>
+                        <li><a href="">Bambini</a></li>
+                    </ul>
+                </div>
+                <!--/div  -->
+                <!-- div contenente il logo di boolean -->
+                <div class="logo">
+                    <img src="img/boolean-logo.png" alt="logo boolean">
+                </div>
+                <!--/div  -->
+                <!-- div contenente i simboli collegati all'account -->
+                <div class="simboli-account">
+                    <!-- lista dei simboli -->
+                    <ul class="lista-simboli">
+                        <li><a href=""><i class="fa-regular fa-user"></i></a></li>
+                        <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </ul>
+                </div>
+                <!--/div  -->
             </div>
-            <!--/div  -->
-            <!-- div contenente il logo di boolean -->
-            <div class="logo">
-                <img src="img/boolean-logo.png" alt="logo boolean">
+            <!-- /div -->
+        </header>
+        <!-- /header  -->
+
+        <!--main  -->
+        <main>
+            <!-- div container centrale del main -->
+            <div class="container">
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente lo sconto -->
+                        <div class="interno-carta sconto">-50%</div>
+                        <!-- div contenente la sostenibilitá -->
+                        <div class="interno-carta sostenibilitá">Sostenibilità</div>
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/1.webp" alt="immagine maglia levis">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/1b.webp" alt="immagine giacca levis con maglia levis">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Levi's</p>
+                        <!-- titolo della carta -->
+                        <h2>RELAXED FIT TEE UNISEX</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">14,99€</p>
+                        <!--  prezzo normale della carta-->
+                        <span class="prezzo-normale">29,99€</span>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /prima carta -->
+                <!--seconda carta -->
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente lo sconto -->
+                        <div class="interno-carta sconto">-30%</div>
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/2.webp" alt="immagine maglia guess">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/2b.webp" alt="immagine maglia guess e gonna ">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Guess</p>
+                        <!-- titolo della carta -->
+                        <h2>ROSES TEE</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">20,99€</p>
+                        <!--  prezzo normale della carta-->
+                        <span class="prezzo-normale">29,99€</span>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /seconda carta -->
+                <!-- terza carta -->
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente lo sconto -->
+                        <div class="interno-carta sconto">-30%</div>
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/3.webp" alt="immagine vestito colore verde">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/3b.webp" alt="immagine vestito colore biege">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Come Zucchero Filato</p>
+                        <!-- titolo della carta -->
+                        <h2>VOGLIA DI COLORI PASTELLO</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">129,99€</p>
+                        <!--  prezzo normale della carta-->
+                        <span class="prezzo-normale">184,99€</span>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /terza carta -->
+                <!-- quarta carta -->
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente lo sconto -->
+                        <div class="interno-carta sconto">-50%</div>
+                        <!-- div contenente la sostenibilitá -->
+                        <div class="interno-carta sostenibilitá">Sostenibilità</div>
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/4.webp" alt="immagine maglia levis">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/4b.webp" alt="immagine giacca levis con maglia levis">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Levi's</p>
+                        <!-- titolo della carta -->
+                        <h2>TEE UNISEX</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">14,99€</p>
+                        <!--  prezzo normale della carta-->
+                        <span class="prezzo-normale">29,99€</span>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /quarta carta -->
+                <!-- quinta carta -->
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/5.webp" alt="immagine vestito">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/5b.webp" alt="immagine vestito con borsetta">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Maya Deluxe</p>
+                        <!-- titolo della carta -->
+                        <h2>STRIPE BODICE</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">99,99€</p>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /quinta carta -->
+                <!-- sesta carta -->
+                <!-- div contenente la carta -->
+                <div class="carta">
+                    <!-- div contenente i dati della carta -->
+                    <div class="dati-carta">
+                        <!-- div contenente la sostenibilitá -->
+                        <div class="interno-carta sost-sesta">Sostenibilità</div>
+                        <!-- div contenente il cuore per metterlo tra i preferiti -->
+                        <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
+                        <!-- prima immagine che sará visibile da subito -->
+                        <img class="prima-immagine" src="img/6.webp" alt="immagine maglione nero">
+                        <!-- seconda immagine che sará visibile solo dopo essere andati sopra la prima immagine con il mouse -->
+                        <img class="seconda-immagine"  src="img/6b.webp" alt="immagine maglione nero con stivali neri">
+                    </div>
+                    <!-- /div -->
+                    <!-- div contenente le informazioni della carta -->
+                    <div class="info-carta">
+                        <!-- marca della carta-->
+                        <p>Esprit</p>
+                        <!-- titolo della carta -->
+                        <h2>MAGLIONE - BLACK</h2>
+                        <!-- prezzo scontato della carta -->
+                        <p class="prezzo-scontato">29,99€</p>
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!-- /sesta carta -->
             </div>
-            <!--/div  -->
-            <!-- div contenente i simboli collegati all'account -->
-            <div class="simboli-account">
-                <!-- lista dei simboli -->
-                <ul class="lista-simboli">
-                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
-                    <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
-                </ul>
-            </div>
-            <!--/div  -->
-        </div>
-        <!-- /div -->
-    </header>
-    <!-- /header  -->
+        </main>
+        <!--/main  -->
 
-    <!--main  -->
-    <main>
-        <div class="container">
-            <!-- prima carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="interno-carta sconto">-50%</div>
-                    <div class="interno-carta sostenibilitá">Sostenibilità</div>
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/1.webp" alt="immagine maglia levis">
-                    <img class="seconda-immagine"  src="img/1b.webp" alt="immagine giacca levis con maglia levis">
+        <!-- footer -->
+        <footer>
+            <!-- div container-flex contenente le informazioni e i social  -->
+            <div class="flex-footer-container">
+                <!-- div contenente le informazioni -->
+                <div class="info">
+                    <!-- nome azienda -->
+                    <h3>Boolando s.r.l</h3>
+                    <!-- lista delle info -->
+                    <ul class="lista-footer">
+                        <li>Informazioni legali</li>
+                        <li>Informativa sulla privacy</li>
+                        <li>Diritto di recesso</li>
+                    </ul>
                 </div>
-                <div class="info-carta">
-                    <p>Levi's</p>
-                    <h2>RELAXED FIT TEE UNISEX</h2>
-                    <p class="prezzo-scontato">14,99€</p>
-                    <span class="prezzo-normale">29,99€</span>
-                </div>
-            </div>
-            <!-- /prima carta -->
-            <!--seconda carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="interno-carta sconto">-30%</div>
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/2.webp" alt="immagine maglia guess">
-                    <img class="seconda-immagine"  src="img/2b.webp" alt="immagine maglia guess e gonna ">
-                </div>
-                <div class="info-carta">
-                    <p>Guess</p>
-                    <h2>ROSES TEE</h2>
-                    <p class="prezzo-scontato">20,99€</p>
-                    <span class="prezzo-normale">29,99€</span>
+                <!-- div contenente i social  -->
+                <div class="social">
+                    <!-- titolo social -->
+                    <h3>Trovaci anche su</h3>
+                    <!-- lista social -->
+                    <ul class="lista-footer">
+                        <!-- logo twitter -->
+                        <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <!-- logo facebook -->
+                        <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <!-- logo instagram -->
+                        <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <!-- logo pinterest -->
+                        <li><a href=""><i class="fa-brands fa-square-pinterest"></i></a></li>
+                        <!-- logo youtube -->
+                        <li><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- /seconda carta -->
-            <!-- terza carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="interno-carta sconto">-30%</div>
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/3.webp" alt="immagine vestito colore verde">
-                    <img class="seconda-immagine"  src="img/3b.webp" alt="immagine vestito colore biege">
-                </div>
-                <div class="info-carta">
-                    <p>Come Zucchero Filato</p>
-                    <h2>VOGLIA DI COLORI PASTELLO</h2>
-                    <p class="prezzo-scontato">129,99€</p>
-                    <span class="prezzo-normale">184,99€</span>
-                </div>
-            </div>
-            <!-- /terza carta -->
-            <!-- quarta carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="interno-carta sconto">-50%</div>
-                    <div class="interno-carta sostenibilitá">Sostenibilità</div>
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/4.webp" alt="immagine maglia levis">
-                    <img class="seconda-immagine"  src="img/4b.webp" alt="immagine giacca levis con maglia levis">
-                </div>
-                <div class="info-carta">
-                    <p>Levi's</p>
-                    <h2>TEE UNISEX</h2>
-                    <p class="prezzo-scontato">14,99€</p>
-                    <span class="prezzo-normale">29,99€</span>
-                </div>
-            </div>
-            <!-- /quarta carta -->
-            <!-- quinta carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/5.webp" alt="immagine vestito">
-                    <img class="seconda-immagine"  src="img/5b.webp" alt="immagine vestito con borsetta">
-                </div>
-                <div class="info-carta">
-                    <p>Maya Deluxe</p>
-                    <h2>STRIPE BODICE</h2>
-                    <p class="prezzo-scontato">99,99€</p>
-                </div>
-            </div>
-            <!-- /quinta carta -->
-            <!-- sesta carta -->
-            <div class="carta">
-                <div class="immagine-carta">
-                    <div class="interno-carta sost-sesta">Sostenibilità</div>
-                    <div class="cuore-preferito"><a href=""><i class="fa-solid fa-heart"></i></a></div>
-
-                    <img class="prima-immagine" src="img/6.webp" alt="immagine maglione nero">
-                    <img class="seconda-immagine"  src="img/6b.webp" alt="immagine maglione nero con stivali neri">
-                </div>
-                <div class="info-carta">
-                    <p>Esprit</p>
-                    <h2>MAGLIONE - BLACK</h2>
-                    <p class="prezzo-scontato">29,99€</p>
-                </div>
-            </div>
-            <!-- /prima carta -->
-        </div>
-    </main>
-    <!--/main  -->
-
-    <!-- footer -->
-    <footer>
-
-    </footer>
-    <!-- /footer -->
-</body>
+        </footer>
+        <!-- /footer -->
+    </body>
 </html>

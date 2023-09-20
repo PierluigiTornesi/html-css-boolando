@@ -25,7 +25,7 @@ header{
     top: 0;
     left: 0;
     background-color: #ff6900;
-    z-index: 10;
+    z-index: 100;
 }
 /* classe per la barra flex dell'header */
 .flex-bar{
@@ -79,8 +79,8 @@ main{
     padding: 1rem;
     position: relative;
 }
-/* classe per il contenitore dell'immagine */
-.immagine-carta{
+/* classe per il contenitore di tutta la carta */
+.dati-carta{
     position: relative;
     width: 400px;
 }
@@ -138,7 +138,7 @@ main{
 }
 /* classe per il nome della carta */
 h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 /* classe per il prezzo scontato della carta */
 .prezzo-scontato{
@@ -150,4 +150,30 @@ h2{
 /* classe per cancellare il prezzo senza sconto  */
 .prezzo-normale{
     text-decoration: line-through;
+}
+/* classe per il footer */
+footer{
+    margin-top: 50px;
+    color: white;
+    padding: 30px 0px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid white;
+}
+/* classe per il container flex del footer */
+.flex-footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* classe per le liste dentro il footer */
+.lista-footer{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+/* classe per i link delle liste dentro il footer */
+.lista-footer a{
+    font-size: 25px;
 }
